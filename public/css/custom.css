@@ -1,0 +1,404 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 22, 2017, 7:31:06 PM
+    Author     : vIcK
+*/
+
+html, body{
+    font-family: 'Raleway', sans-serif;
+}
+.form-control:active, .form-control:focus{
+    box-shadow: 1px 1px 1px #159c33;
+    border-color: #159c33;
+}
+#Auths{
+    margin-top: 10em;
+}
+
+/*Navigation*/
+#app .navbar {
+    height: 7.5em;
+    box-shadow: 1px 1px 2px #777;
+}
+#app .navbar .btn-success{
+    background: #000;
+    border-color: #000;
+}
+#app .navbar .btn-success:hover{
+    background: #159c33;
+    border-color: #159c33;
+}
+#app .navbar .black{
+    color: #000;
+}
+#app .navbar .black:hover{
+    background: transparent;
+    color: #159c33;
+}
+#app .navbar a{
+    color: #159c33;
+    font-weight: 600;
+}
+#app .navbar a:hover{
+    background: #eee;
+}
+#app a.navbar-brand:hover{
+    background: transparent;
+}
+#app .nav .active{
+    background-color: transparent;
+    color: #000;
+    font-weight: 900;
+}
+
+/*Carousel*/
+#yCarousel{
+    margin-top: 7em;
+}
+#yCarousel .carousel-inner img{
+    width: 100%;
+}
+#yCarousel .carousel-caption {
+    font-weight: 900;
+    font-size: 2em;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    padding-bottom: 0;
+    bottom: 0;
+    padding-top: 0;
+}
+#yCarousel .carousel-caption p {
+    position: relative;
+    top: 40%;
+    font-size: 1.2em;
+}
+#yCarousel i{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    background: #000;
+    color: #159c33;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.heading{
+   color: #000;
+   font-weight: 900;
+   font-size: 2.5em;
+}
+/*About Section*/
+#About{
+    background: #fff;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+#About .panel-heading{
+    background: #159c33;
+    color: #fff;
+}
+#About .panel-title a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+#About .panel-body p{
+    font-size: 1.1em;
+}
+#About .aboutY {
+    font-size: 1.2em;
+    text-align: justify;
+}
+#About .subHeading{
+    color: #000;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+#About .aboutY img{
+    box-shadow: 1px 1px 1px 2px #ccc;
+    padding: 10px;
+    -moz-transition: all ease-in-out 0.4s;
+    -webkit-transition: all ease-in-out 0.4s;
+    -o-transition: all ease-in-out 0.4s;
+    -ms-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    cursor: pointer;
+}
+#About .aboutY img:hover{
+    padding: 10px 5px;
+}
+
+/*Services Section*/
+#Services {
+    background: transparent url('../images/bg-Services.jpg') no-repeat;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 50em;
+    padding-top: 20px;
+}
+#Services .boxes{
+    padding: 10px;
+    border-radius: 20px;
+    -moz-transition: all ease-in-out 0.8s;
+    -webkit-transition: all ease-in-out 0.8s;
+    -ms-transition: all ease-in-out 0.8s;
+    -o-transition: all ease-in-out 0.8s;
+    transition: all ease-in-out 0.8s;
+}
+#Services .boxes:hover{
+    border-radius: 0;
+}
+#Services .boxes h4{
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+#Services .boxes a{
+    text-decoration: none;
+}
+#Services .boxes p{
+    padding: 0 10px;
+}
+#Services .boxes ul{
+    list-style-type: none;
+    padding: 0 10px;
+}
+#Services div.boxes{
+    height: 500px;
+    font-size: 1.1em;
+}
+#Services .bg-info{
+    background: #fff;
+}
+#Services .text-info{
+    color: #159c33;
+}
+#Services .bg-danger{
+    background: #159c33;
+    color: #fff;
+}
+#Services .text-danger{
+    color: #fff;
+}
+#Services .text-black{
+    color: #444;
+}
+#Services .bg-success{
+    background: #fff;
+}
+#Services .text-success{
+    color: #159c33;
+}
+#Services .bg-warning{
+    background: #000;
+    color: #fff;
+}
+#Services .text-warning{
+    color: #fff;
+}
+
+/*Socials & Address Section*/
+#Socials{
+    background: #010;
+    height: 40em;
+    padding-top: 50px;
+}
+#Socials h4{
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+#Socials p{
+    color: #fff;
+}
+#Socials ul{
+    list-style-type: none;
+    font-size: 1.1em;
+    padding: 0;
+}
+#Socials ul li{
+    padding-bottom: 10px;
+}
+#Socials ul li a{
+    color: #159c33;
+    -moz-transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+}
+#Socials ul li a:hover{
+    font-weight: 600;
+}
+
+/*Footer*/
+footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+
+/*Responsive Styling*/
+@media(max-width:991px){
+    #Services {
+        height: 90em;
+    }
+    #Services .boxes{
+        padding: 10px;
+        border-radius: 20px;
+    }
+    #Services .boxes h4{
+        font-size: 1.1em;
+        margin-bottom: 10px;
+    }
+    #Services div.boxes{
+        height: 500px;
+        font-size: 1.1em;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:767px){
+    #app .navbar-header{
+        height: 7.5em;
+    }
+    #app .nav{
+        background: #fff;
+    }
+    #app .navbar-nav{
+        margin-top: 0;
+    }
+    button.navbar-toggle{
+        background: #159c33;
+        border-color: #159c33;
+    }
+    .navbar-toggle .icon-bar{
+        background: #000!important;
+    }
+    .navbar-toggle:hover, .navbar-toggle:focus{
+        background: #000!important;
+    }
+    .navbar-toggle:hover .icon-bar, .navbar-toggle:focus.icon-bar{
+        background: #159c33!important;
+    }
+    
+    
+    #yCarousel .carousel-caption p {
+        top: 30%;
+        font-size: 1em;
+    }
+    #yCarousel i{
+        left: 30%;
+    }
+    
+    .heading{
+        font-size: 2em;
+        margin: 0.1em;
+    }
+    
+    #About{
+        padding-bottom: 20px;
+    }
+    .aboutY p{
+        font-size: 0.9em;
+    }
+    #About .subHeading{
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+    #About .aboutY img{
+        padding: 5px;
+    }
+    #About .aboutY img:hover{
+        padding: 2px;
+    }
+    #About .aboutY{
+        margin-bottom: 20px;
+    }
+    #About h4.panel-title{
+        font-size: 1em;
+    }
+    #About .panel-body p{
+        font-size: 1em;
+    }
+    
+    #Services .col-xs-12{
+        width: 50%;
+    }
+    
+    #Socials{
+        height: 60em;
+    }
+    
+}
+@media(max-width:700px){
+    #yCarousel .carousel-caption p {
+        top: 30%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width:567px){
+    #yCarousel .carousel-caption p {
+        font-size: 0.6em;
+    }
+    #yCarousel i{
+        left: 20%;
+    }
+}
+
+@media(max-width:525px){
+    #Services {
+        height: 165em;
+    }
+    #Services .col-xs-12{
+        width: 100%;
+    }
+    #Services ul{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:450px){
+    #yCarousel .carousel-caption p {
+        font-size: 0.5em;
+    }
+    #yCarousel .carousel-indicators{
+        display: none;
+    }
+    #yCarousel i{
+        left: 0%;
+    }
+    
+    #About .aboutY img{
+        padding: 2px;
+    }
+    #About .aboutY img:hover{
+        padding: 0;
+    }
+    
+    #Services ul{
+        width: 100%;
+    }
+}
