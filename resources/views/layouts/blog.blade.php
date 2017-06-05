@@ -11,8 +11,9 @@
 
     <title>@yield('title')</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    {{--<!-- Bootstrap Core CSS -->--}}
+    {{--<link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">--}}
+    <link href="{{asset('css/app.css')}}" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="/css/clean-blog.min.css" rel="stylesheet">
@@ -50,11 +51,12 @@
     @include('partials.blog.footer')
 
     <!-- jQuery -->
-    <script src="/vendor/jquery/jquery.min.js"></script>
+    {{--<script src="/vendor/jquery/jquery.min.js"></script>--}}
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+    {{--<!-- Bootstrap Core JavaScript -->--}}
+    {{--<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>--}}
 
+    <script src="{{asset('js/app.js')}}"></script>
     <!-- Contact Form JavaScript -->
     <script src="/js/jqBootstrapValidation.js"></script>
     <script src="/js/contact_me.js"></script>

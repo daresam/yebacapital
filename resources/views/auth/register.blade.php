@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
-@section('title', 'Register')
-
 @section('content')
 <div class="container" id="Auths">
     <div class="row">
